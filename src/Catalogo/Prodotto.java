@@ -34,6 +34,22 @@ public class Prodotto
         return prezzo;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public void setPrezzo(double prezzo) {
+        this.prezzo = prezzo;
+    }
+
     @Override
     public String toString() {
         return "Prodotto{" +
